@@ -397,6 +397,8 @@ function Header() {
       <footer className="border-t border-border mt-12 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center text-muted-foreground">
           <p>Built with React + Tailwind CSS • Experiment and learn by doing!</p>
+          <p>Thought of by: Andrew Sabourin</p>
+          <a href="https://github.com/pm-Andrew/React-Tailwind---Playground">GitHub</a>
         </div>
       </footer>
     </div>
