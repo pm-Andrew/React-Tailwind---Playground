@@ -1,4 +1,4 @@
-# Learn React & Tailwind CSS
+# Learn React (TypeScript) & Tailwind CSS
 
 An interactive, hands-on tutorial website for learning React and Tailwind CSS through live examples and experimentation.
 
@@ -18,6 +18,7 @@ No passive reading—everything is interactive and explorable!
 ### React Concepts Covered
 
 #### Core Hooks
+
 - **useState** - Managing component state (counters, forms, toggles)
 - **useEffect** - Side effects and lifecycle (timers, data fetching)
 - **useRef** - DOM references and persistent values
@@ -26,6 +27,7 @@ No passive reading—everything is interactive and explorable!
 - **useMemo** - Caching expensive calculations
 
 #### Patterns & Best Practices
+
 - Controlled components (form inputs)
 - Conditional rendering (`&&`, ternary operators)
 - List rendering with `.map()` and keys
@@ -37,54 +39,64 @@ No passive reading—everything is interactive and explorable!
 ### Tailwind CSS Utilities Covered
 
 #### Layout
+
 - **Flexbox** - `flex`, `items-center`, `justify-between`, `gap-4`, `flex-col`
 - **Grid** - `grid`, `grid-cols-2`, `grid-cols-3`, `gap-6`, `col-span-2`
 - **Spacing** - `m-4`, `p-4`, `px-4`, `py-4`, `mx-auto`, `my-4`, `space-y-6`
 - **Sizing** - `w-full`, `h-screen`, `max-w-lg`, `min-h-screen`
 
 #### Typography
+
 - **Size** - `text-xs`, `text-sm`, `text-base`, `text-lg`, `text-xl`, `text-2xl`
 - **Weight** - `font-normal`, `font-medium`, `font-semibold`, `font-bold`
 - **Style** - `italic`, `uppercase`, `underline`, `line-through`
 - **Alignment** - `text-left`, `text-center`, `text-right`, `tracking-wide`
 
 #### Colors
+
 - **Background** - `bg-blue-500`, `bg-gradient-to-r`, `from-purple-500`, `to-pink-500`
 - **Text** - `text-white`, `text-gray-900`, `text-muted-foreground`
 - **Borders** - `border`, `border-2`, `border-gray-300`, `border-border`
 
 #### Visual Effects
+
 - **Shadows** - `shadow-sm`, `shadow`, `shadow-md`, `shadow-lg`, `shadow-xl`
 - **Rounded Corners** - `rounded`, `rounded-md`, `rounded-lg`, `rounded-full`
 - **Opacity** - `opacity-0`, `opacity-50`, `opacity-100`
 
 #### Interactive States
+
 - **Hover** - `hover:bg-blue-700`, `hover:scale-105`, `hover:shadow-lg`
 - **Focus** - `focus:ring-2`, `focus:border-purple-500`, `focus:outline-none`
 - **Active** - `active:bg-blue-800`
 - **Disabled** - `disabled:bg-gray-400`, `disabled:cursor-not-allowed`
 
 #### Animations & Transitions
+
 - **Transitions** - `transition-all`, `transition-colors`, `duration-500`
 - **Transforms** - `scale-105`, `rotate-2`, `-translate-y-1`
 - **Built-in Animations** - `animate-pulse`, `animate-spin`, `animate-bounce`
 
 #### Responsive Design
+
 - **Breakpoints** - `sm:`, `md:`, `lg:`, `xl:`, `2xl:`
 - Mobile-first approach with progressive enhancement
 
 #### Positioning
+
 - `relative`, `absolute`, `fixed`, `sticky`
 - `top-0`, `left-0`, `bottom-0`, `right-0`
 - `z-10`, `z-50`
 
 #### Dark Mode
+
 - `dark:bg-gray-900`, `dark:text-white`
 - Complete theming system with CSS variables
 
 ## 🧩 Interactive Components Showcased
 
 ### React Basics Tab
+
 1. **Counter Component** - useState with increment/reset
 2. **Controlled Input** - Two-way data binding
 3. **Conditional Rendering** - Show/hide message toggle
@@ -96,6 +108,7 @@ No passive reading—everything is interactive and explorable!
 9. **Props Demo** - Greeting components with dynamic colors
 
 ### Tailwind Basics Tab
+
 1. **Interactive Utility Demo** - Live spacing, color, and border-radius selector
 2. **Responsive Design Demo** - Gradient that changes direction at breakpoints
 3. **Flexbox Layout** - Equal-width flex items
@@ -109,12 +122,14 @@ No passive reading—everything is interactive and explorable!
 11. **Typography Examples** - All text sizes, weights, and decorations
 
 ### Dark Mode Tab
+
 - Global dark/light theme toggle
 - Step-by-step implementation guide
 - Live examples of adaptive components
 - Complete code example
 
 ### React Reference Tab
+
 - Comprehensive hook documentation
 - useState, useEffect, useContext patterns
 - Custom hooks examples (useToggle, useLocalStorage)
@@ -122,6 +137,7 @@ No passive reading—everything is interactive and explorable!
 - Best practices checklist
 
 ### Tailwind Reference Tab
+
 - Complete utility class reference
 - Organized by category (spacing, colors, typography, etc.)
 - Visual examples and live demonstrations
@@ -129,6 +145,7 @@ No passive reading—everything is interactive and explorable!
 - Responsive breakpoint guide
 
 ### Code Examples Tab
+
 - Copy-paste ready code snippets
 - Component patterns
 - Tailwind recipes
@@ -137,6 +154,7 @@ No passive reading—everything is interactive and explorable!
 ## 🎨 Design System
 
 This tutorial uses a complete design system with:
+
 - CSS custom properties for theming
 - Consistent color palette
 - Responsive typography scale
@@ -144,6 +162,7 @@ This tutorial uses a complete design system with:
 - Dark mode support throughout
 
 All colors use semantic tokens:
+
 - `--background`, `--foreground`
 - `--primary`, `--secondary`, `--accent`
 - `--muted`, `--destructive`
@@ -152,32 +171,41 @@ All colors use semantic tokens:
 ## 💡 Learning Approach
 
 ### 1. **Interactive Demos**
+
 Every concept has a live, working example you can interact with immediately.
 
 ### 2. **Code with Comments**
+
 All source code includes educational comments explaining:
+
 - What the code does
 - Why it's written that way
 - How it works under the hood
 
 ### 3. **Visual Feedback**
+
 See changes instantly—modify state, toggle classes, and watch the UI respond.
 
 ### 4. **Progressive Complexity**
+
 Start with basics (useState, padding) and progress to advanced topics (Context API, responsive design).
 
 ### 5. **Reference Sections**
+
 Quick-reference guides for both React and Tailwind when you need to look something up.
 
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
+
 - **Node.js 18+** - Download from [nodejs.org](https://nodejs.org)
 
 This project prefers `pnpm` (monorepo-aware) but will work with `npm` as well.
 
 ### Install tools (optional)
+
 - Install `pnpm` globally (optional):
+
    ```bash
    npm install -g pnpm
    ```
@@ -185,11 +213,13 @@ This project prefers `pnpm` (monorepo-aware) but will work with `npm` as well.
 ### Installation (choose one)
 
 - With pnpm (recommended):
+
    ```bash
    pnpm install
    ```
 
 - With npm (works too):
+
    ```bash
    npm install
    ```
@@ -207,11 +237,13 @@ npm install react react-dom
 ### Start development
 
 With pnpm:
+
 ```bash
 pnpm run dev
 ```
 
 Or with npm:
+
 ```bash
 npm run dev
 ```
@@ -221,11 +253,13 @@ The dev server uses Vite and typically runs at `http://localhost:5173`.
 ### Build for production
 
 With pnpm:
+
 ```bash
 pnpm run build
 ```
 
 With npm:
+
 ```bash
 npm run build
 ```
@@ -243,7 +277,7 @@ Built assets will be emitted to the `dist/` directory by default.
 
 ## 📁 Project Structure
 
-```
+```mermaid
 src/
 ├── app/
 │   ├── App.tsx                      # Main app with tabs and dark mode
