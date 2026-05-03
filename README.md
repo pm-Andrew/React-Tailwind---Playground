@@ -173,26 +173,64 @@ Quick-reference guides for both React and Tailwind when you need to look somethi
 
 ### Prerequisites
 - **Node.js 18+** - Download from [nodejs.org](https://nodejs.org)
-- **pnpm** - Install globally with `npm install -g pnpm`
 
-### Installation Steps
+This project prefers `pnpm` (monorepo-aware) but will work with `npm` as well.
 
-1. **Install Dependencies**
+### Install tools (optional)
+- Install `pnpm` globally (optional):
+   ```bash
+   npm install -g pnpm
+   ```
+
+### Installation (choose one)
+
+- With pnpm (recommended):
    ```bash
    pnpm install
    ```
 
-2. **Start Development Server**
+- With npm (works too):
    ```bash
-   pnpm run dev
+   npm install
    ```
-   The site will be available at `http://localhost:5173`
 
-3. **Build for Production**
-   ```bash
-   pnpm run build
-   ```
-   Output files will be in the `dist/` directory
+> Note: The project declares `react` and `react-dom` as peer dependencies. If your install does not add them automatically, install them manually:
+
+```bash
+# using pnpm
+pnpm add react react-dom
+
+# or using npm
+npm install react react-dom
+```
+
+### Start development
+
+With pnpm:
+```bash
+pnpm run dev
+```
+
+Or with npm:
+```bash
+npm run dev
+```
+
+The dev server uses Vite and typically runs at `http://localhost:5173`.
+
+### Build for production
+
+With pnpm:
+```bash
+pnpm run build
+```
+
+With npm:
+```bash
+npm run build
+```
+
+Built assets will be emitted to the `dist/` directory by default.
 
 ## 🚀 Getting Started
 
